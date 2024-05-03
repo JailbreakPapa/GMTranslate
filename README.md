@@ -7,4 +7,4 @@ Glad you asked! There are always things that can be done on an open-source proje
 
 ## License
 
-MIT License. Thanks for using this template!
+MIT License. Do what ever you want!
