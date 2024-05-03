@@ -1,0 +1,17 @@
+﻿<Application x:Class="GMTranslate.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GMTranslate"
+             xmlns:viewModels="clr-namespace:GMTranslate.ViewModels"
+             xmlns:views="clr-namespace:GMTranslate.Views"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <DataTemplate DataType="{x:Type viewModels:AnotherScreen}">
+            <views:AnotherScreen/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:HomeScreenViewModel}">
+            <views:HomeScreen/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>
