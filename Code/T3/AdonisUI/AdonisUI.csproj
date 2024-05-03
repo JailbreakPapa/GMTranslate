@@ -41,6 +41,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' != 'net45'">
-    <PackageReference Include="System.Drawing.Common" Version="4.6.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.2" />
   </ItemGroup>
 </Project>
